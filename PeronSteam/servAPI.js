@@ -1,7 +1,7 @@
 import express, { response } from "express";
 import cors from "cors";
 import morgan from "morgan";
-import games from "./games.json" assert { type: "json" };
+import games from "./src/games.json" assert { type: "json" };
 const app = express();
 app.use(cors());
 app.use(morgan("dev"));
