@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "node --watch index.js "
+    "dev": "node --watch servAPI.js "
   },
   "dependencies": {
     "cors": "^2.8.5",
